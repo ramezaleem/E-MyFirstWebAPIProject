@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Employee/api/Employee/Get": {
+    "/api/Employee/Empl/All": {
       "get": {
         "tags": [
           "Employee"
@@ -34,10 +34,21 @@
         }
       }
     },
-    "/api/Employee/api/Employee/GetEmployee": {
+    "/api/Employee/Emp/ById/{id}": {
       "get": {
         "tags": [
           "Employee"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {

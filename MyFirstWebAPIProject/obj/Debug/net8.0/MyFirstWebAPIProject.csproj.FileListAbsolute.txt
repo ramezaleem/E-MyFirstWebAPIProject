@@ -33,3 +33,4 @@ E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\refint\MyFirstWebA
 E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\MyFirstWebAPIProject.pdb
 E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\MyFirstWebAPIProject.genruntimeconfig.cache
 E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\ref\MyFirstWebAPIProject.dll
+E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\MyFirstWebAPIProject.sourcelink.json

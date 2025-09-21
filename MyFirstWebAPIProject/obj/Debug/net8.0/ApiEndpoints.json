@@ -1,12 +1,18 @@
 [
   {
     "ContainingType": "MyFirstWebAPIProject.Controllers.EmployeeController",
-    "Method": "Get",
-    "RelativePath": "api/Employee/api/Employee/Get",
+    "Method": "GetEmployeeById",
+    "RelativePath": "api/Employee/Emp/ById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.String",
@@ -21,8 +27,8 @@
   },
   {
     "ContainingType": "MyFirstWebAPIProject.Controllers.EmployeeController",
-    "Method": "GetEmployee",
-    "RelativePath": "api/Employee/api/Employee/GetEmployee",
+    "Method": "Get",
+    "RelativePath": "api/Employee/Empl/All",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

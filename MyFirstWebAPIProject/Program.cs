@@ -1,4 +1,6 @@
 
+using MyFirstWebAPIProject.Repositories;
+
 namespace MyFirstWebAPIProject
 {
     public class Program
@@ -8,6 +10,7 @@ namespace MyFirstWebAPIProject
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddSingleton<IEmployeeRepository, EmployeeRepository>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
