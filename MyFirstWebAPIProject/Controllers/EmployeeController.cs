@@ -1,88 +1,42 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyFirstWebAPIProject.Models;
-using MyFirstWebAPIProject.Repositories;
 
 namespace MyFirstWebAPIProject.Controllers;
 [Route("api/[controller]")]
 [ApiController]
 public class EmployeeController : ControllerBase
 {
-    private readonly IEmployeeRepository _repository;
-    public EmployeeController ( IEmployeeRepository employeeRepository )
-    {
-        _repository = employeeRepository;
-    }
 
+    [Route("{EmployeeName:alpha:minlength(5):maxlength(10)}")]
     [HttpGet]
-    public ActionResult<IEnumerable<Employee>> GetAllEmployees ()
+    public string GetEmployeeDetails ( string EmployeeName )
     {
-        var employees = _repository.GetAll();
-        return Ok(employees);
+        return $"Employee {EmployeeName}";
     }
 
-    [HttpGet("{id}")]
-    public ActionResult<Employee> GetEmployeeById ( int id )
+    [HttpGet("Name")]
+    public string GetName ()
     {
-        var employee = _repository.GetById(id);
-        if (employee == null)
-        {
-            return NotFound();
-        }
-        return Ok(employee);
+        return "Return from GetName";
     }
 
-    [HttpPost]
-    public ActionResult<Employee> CreateEmployee ( [FromBody] Employee employee )
+    [HttpGet("Details")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public Employee GetEmployee ()
     {
-        if (!ModelState.IsValid)
-        {
-            return BadRequest(ModelState);
-        }
-        _repository.Add(employee);
-        return CreatedAtAction(nameof(GetEmployeeById), new { id = employee.Id }, employee);
+        return new Employee { Id = 1, Name = "Ahmed", Age = 30 };
     }
 
-    [HttpPut("{id}")]
-    public IActionResult UpdateEmployee ( int id, [FromBody] Employee employee )
+    [HttpGet("All")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public IEnumerable<Employee> GetEmployees ()
     {
-        if (id != employee.Id)
-        {
-            return BadRequest("Employee ID mismatch.");
-        }
-        if (!_repository.Exists(id))
-        {
-            return NotFound();
-        }
-        _repository.Update(employee);
-        return NoContent();
-    }
-
-    [HttpPatch("{id}")]
-    public IActionResult PatchEmployee ( int id, [FromBody] Employee employee )
-    {
-        var existingEmployee = _repository.GetById(id);
-        if (existingEmployee == null)
-        {
-            return NotFound();
-        }
-        // For simplicity, updating all fields. In real scenarios, use JSON Patch.
-        existingEmployee.Name = employee.Name ?? existingEmployee.Name;
-        existingEmployee.Position = employee.Position ?? existingEmployee.Position;
-        existingEmployee.Age = employee.Age != 0 ? employee.Age : existingEmployee.Age;
-        existingEmployee.Email = employee.Email ?? existingEmployee.Email;
-        _repository.Update(existingEmployee);
-        return NoContent();
-    }
-
-    [HttpDelete("{id}")]
-    public IActionResult DeleteEmployee ( int id )
-    {
-        if (!_repository.Exists(id))
-        {
-            return NotFound();
-        }
-        _repository.Delete(id);
-        return NoContent();
+        return new List<Employee> {
+        new Employee { Id=1, Name="Ahmed", Age=30 },
+        new Employee { Id=2, Name="Saleh", Age=25 }
+        };
     }
 
 

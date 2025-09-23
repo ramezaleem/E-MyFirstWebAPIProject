@@ -1,0 +1,36 @@
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\bin\Debug\net8.0\appsettings.Development.json
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\bin\Debug\net8.0\appsettings.json
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\bin\Debug\net8.0\LibraryAPI - BindingAttributes.API.staticwebassets.endpoints.json
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\bin\Debug\net8.0\LibraryAPI - BindingAttributes.API.exe
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\bin\Debug\net8.0\LibraryAPI - BindingAttributes.API.deps.json
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\bin\Debug\net8.0\LibraryAPI - BindingAttributes.API.runtimeconfig.json
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\bin\Debug\net8.0\LibraryAPI - BindingAttributes.API.dll
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\bin\Debug\net8.0\LibraryAPI - BindingAttributes.API.pdb
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\LibraryAPI - BindingAttributes.API.csproj.AssemblyReference.cache
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\LibraryAPI - BindingAttributes.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\LibraryAPI - BindingAttributes.API.AssemblyInfoInputs.cache
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\LibraryAPI - BindingAttributes.API.AssemblyInfo.cs
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\LibraryAPI - BindingAttributes.API.csproj.CoreCompileInputs.cache
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\LibraryAPI - BindingAttributes.API.MvcApplicationPartsAssemblyInfo.cs
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\LibraryAPI - BindingAttributes.API.MvcApplicationPartsAssemblyInfo.cache
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\LibraryAPI - BindingAttributes.API.sourcelink.json
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\scopedcss\bundle\LibraryAPI - BindingAttributes.API.styles.css
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\staticwebassets.build.json
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\staticwebassets.development.json
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\LibraryA.EB9403C3.Up2Date
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\LibraryAPI - BindingAttributes.API.dll
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\refint\LibraryAPI - BindingAttributes.API.dll
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\LibraryAPI - BindingAttributes.API.pdb
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\LibraryAPI - BindingAttributes.API.genruntimeconfig.cache
+E:\MyFirstWebAPIProject\LibraryAPI - BindingAttributes.API\obj\Debug\net8.0\ref\LibraryAPI - BindingAttributes.API.dll

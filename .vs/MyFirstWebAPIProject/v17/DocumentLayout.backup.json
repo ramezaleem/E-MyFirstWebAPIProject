@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "E:\\MyFirstWebAPIProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A28DF6D-9444-4F1E-8E4A-AB4783A6DE65}|MyFirstWebAPIProject\\MyFirstWebAPIProject.csproj|e:\\myfirstwebapiproject\\myfirstwebapiproject\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A28DF6D-9444-4F1E-8E4A-AB4783A6DE65}|MyFirstWebAPIProject\\MyFirstWebAPIProject.csproj|solutionrelative:myfirstwebapiproject\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A28DF6D-9444-4F1E-8E4A-AB4783A6DE65}|MyFirstWebAPIProject\\MyFirstWebAPIProject.csproj|e:\\myfirstwebapiproject\\myfirstwebapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A28DF6D-9444-4F1E-8E4A-AB4783A6DE65}|MyFirstWebAPIProject\\MyFirstWebAPIProject.csproj|solutionrelative:myfirstwebapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A28DF6D-9444-4F1E-8E4A-AB4783A6DE65}|MyFirstWebAPIProject\\MyFirstWebAPIProject.csproj|e:\\myfirstwebapiproject\\myfirstwebapiproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A28DF6D-9444-4F1E-8E4A-AB4783A6DE65}|MyFirstWebAPIProject\\MyFirstWebAPIProject.csproj|solutionrelative:myfirstwebapiproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55E25F27-B638-4F47-83D3-F0110C5C2816}|AutomapperDemo\\AutomapperDemo.csproj|e:\\myfirstwebapiproject\\automapperdemo\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E25F27-B638-4F47-83D3-F0110C5C2816}|AutomapperDemo\\AutomapperDemo.csproj|solutionrelative:automapperdemo\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\MyFirstWebAPIProject\\AutomapperDemo\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "AutomapperDemo\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\MyFirstWebAPIProject\\AutomapperDemo\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "AutomapperDemo\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA0wBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T11:15:33.498Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -47,45 +52,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "E:\\MyFirstWebAPIProject\\MyFirstWebAPIProject\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "MyFirstWebAPIProject\\Controllers\\EmployeeController.cs",
-              "ToolTip": "E:\\MyFirstWebAPIProject\\MyFirstWebAPIProject\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "MyFirstWebAPIProject\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T15:11:45.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\MyFirstWebAPIProject\\MyFirstWebAPIProject\\Program.cs",
-              "RelativeDocumentMoniker": "MyFirstWebAPIProject\\Program.cs",
-              "ToolTip": "E:\\MyFirstWebAPIProject\\MyFirstWebAPIProject\\Program.cs",
-              "RelativeToolTip": "MyFirstWebAPIProject\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwB8AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T15:08:53.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "E:\\MyFirstWebAPIProject\\MyFirstWebAPIProject\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "MyFirstWebAPIProject\\Controllers\\ProductsController.cs",
-              "ToolTip": "E:\\MyFirstWebAPIProject\\MyFirstWebAPIProject\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "MyFirstWebAPIProject\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T14:50:02.363Z",
-              "EditorCaption": ""
             }
           ]
         }

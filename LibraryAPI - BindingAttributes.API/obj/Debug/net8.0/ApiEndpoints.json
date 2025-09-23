@@ -1,0 +1,33 @@
+[
+  {
+    "ContainingType": "LibraryAPI___Learning.Controllers.BooksController",
+    "Method": "CreateBook",
+    "RelativePath": "api/Books",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-User-Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Details",
+        "Type": "LibraryAPI___Learning.Models.BookDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

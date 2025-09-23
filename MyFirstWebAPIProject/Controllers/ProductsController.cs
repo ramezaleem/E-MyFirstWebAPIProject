@@ -6,12 +6,23 @@ namespace MyFirstWebAPIProject.Controllers;
 [ApiController]
 public class ProductsController : ControllerBase
 {
+    //private static List<Product> _products = new List<Product>
+    //{
+    //    new Product { Id = 1, Name = "Laptop", Category = "Electronics", Price = 1000, Quantity = 10 },
+    //    new Product { Id = 2, Name = "Desktop", Category = "Electronics", Price = 2000, Quantity = 20 },
+    //    new Product { Id = 3, Name = "Mobile", Category = "Electronics", Price = 3000, Quantity = 30 },
+    //    new Product { Id = 4, Name = "Casual Shirts", Category = "Apparel", Price = 500, Quantity = 10 },
+    //    new Product { Id = 5, Name = "Formal Shirts", Category = "Apparel", Price = 600, Quantity = 30 },
+    //    new Product { Id = 6, Name = "Jackets & Coats", Category = "Apparel", Price = 700, Quantity = 20 },
+    //};
     private static List<Product> _products = new List<Product>
     {
-        new Product { Id = 1, Name = "Laptop", Price = 1000.00m, Category = "Electronics" },
-        new Product { Id = 2, Name = "Desktop", Price = 2000.00m, Category = "Electronics" },
-        new Product { Id = 3, Name = "Mobile", Price = 300.00m, Category = "Electronics" },
-        // Additional products can be added here
+        new Product { Id = 1, Name = "Laptop", Price = 1000, Quantity = 10 },
+        new Product { Id = 2, Name = "Desktop", Price = 2000, Quantity = 20 },
+        new Product { Id = 3, Name = "Mobile",  Price = 3000, Quantity = 30 },
+        new Product { Id = 4, Name = "Casual Shirts",Price = 500, Quantity = 10 },
+        new Product { Id = 5, Name = "Formal Shirts",  Price = 600, Quantity = 30 },
+        new Product { Id = 6, Name = "Jackets & Coats",  Price = 700, Quantity = 20 },
     };
 
     [HttpGet]
@@ -21,24 +32,31 @@ public class ProductsController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public ActionResult<Product> GetProduct ( int id )
+    public ActionResult<Product> GetProduct ( [FromRoute(Name = "id")] int productId )
     {
-        var product = _products.FirstOrDefault(p => p.Id == id);
+        var product = _products.FirstOrDefault(p => p.Id == productId);
 
         if (product is null)
-            return NotFound(new { Message = $"Product with ID {id} not found." });
+            return NotFound(new { Message = $"Product with ID {productId} not found." });
 
         return Ok(product);
     }
 
     [HttpPost]
-    public ActionResult<Product> PostProduct ( [FromBody] Product product )
+    public IActionResult CreateProduct ( [FromBody] Product product )
     {
-        product.Id = _products.Max(p => p.Id) + 1;
-
-        _products.Add(product);
-        return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
+        // ممكن تحفظ المنتج هنا أو تعرضه
+        return Ok(product);
     }
+
+    //[HttpPost]
+    //public ActionResult<Product> PostProduct ( [FromBody] Product product )
+    //{
+    //    product.Id = _products.Max(p => p.Id) + 1;
+
+    //    _products.Add(product);
+    //    return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
+    //}
 
     [HttpPut("{id}")]
     public IActionResult PutProduct ( int id, [FromBody] Product updateProduct )
@@ -52,7 +70,7 @@ public class ProductsController : ControllerBase
 
         existingProduct.Name = updateProduct.Name;
         existingProduct.Price = updateProduct.Price;
-        existingProduct.Category = updateProduct.Category;
+        //existingProduct.Category = updateProduct.Category;
 
         return NoContent();
     }

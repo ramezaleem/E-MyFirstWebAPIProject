@@ -1,17 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace MyFirstWebAPIProject.Models;
+﻿namespace MyFirstWebAPIProject.Models;
 
 public class Employee
 {
     public int Id { get; set; }
-    [Required]
-    [StringLength(100)]
     public string Name { get; set; }
-    [StringLength(100)]
-    public string Position { get; set; }
-    [Range(18, 65)]
+    public string Gender { get; set; }
     public int Age { get; set; }
-    [EmailAddress]
-    public string Email { get; set; }
+    public string Department { get; set; }
+    public string City { get; set; }
 }
