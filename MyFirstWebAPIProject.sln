@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationDemo", "Validatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomapperDemo", "AutomapperDemo\AutomapperDemo.csproj", "{55E25F27-B638-4F47-83D3-F0110C5C2816}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperComplexMappingDemo", "AutoMapperComplexMappingDemo\AutoMapperComplexMappingDemo.csproj", "{4E92625D-986E-4467-850A-12C64709DEFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{55E25F27-B638-4F47-83D3-F0110C5C2816}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55E25F27-B638-4F47-83D3-F0110C5C2816}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55E25F27-B638-4F47-83D3-F0110C5C2816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E92625D-986E-4467-850A-12C64709DEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E92625D-986E-4467-850A-12C64709DEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E92625D-986E-4467-850A-12C64709DEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E92625D-986E-4467-850A-12C64709DEFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

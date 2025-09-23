@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "E:\\MyFirstWebAPIProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55E25F27-B638-4F47-83D3-F0110C5C2816}|AutomapperDemo\\AutomapperDemo.csproj|e:\\myfirstwebapiproject\\automapperdemo\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55E25F27-B638-4F47-83D3-F0110C5C2816}|AutomapperDemo\\AutomapperDemo.csproj|solutionrelative:automapperdemo\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E92625D-986E-4467-850A-12C64709DEFB}|AutoMapperComplexMappingDemo\\AutoMapperComplexMappingDemo.csproj|e:\\myfirstwebapiproject\\automappercomplexmappingdemo\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E92625D-986E-4467-850A-12C64709DEFB}|AutoMapperComplexMappingDemo\\AutoMapperComplexMappingDemo.csproj|solutionrelative:automappercomplexmappingdemo\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E92625D-986E-4467-850A-12C64709DEFB}|AutoMapperComplexMappingDemo\\AutoMapperComplexMappingDemo.csproj|e:\\myfirstwebapiproject\\automappercomplexmappingdemo\\mappingprofiles\\ordermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E92625D-986E-4467-850A-12C64709DEFB}|AutoMapperComplexMappingDemo\\AutoMapperComplexMappingDemo.csproj|solutionrelative:automappercomplexmappingdemo\\mappingprofiles\\ordermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "E:\\MyFirstWebAPIProject\\AutomapperDemo\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "AutomapperDemo\\Controllers\\ProductsController.cs",
-              "ToolTip": "E:\\MyFirstWebAPIProject\\AutomapperDemo\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "AutomapperDemo\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAA0wBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T11:15:33.498Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -52,6 +43,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "E:\\MyFirstWebAPIProject\\AutoMapperComplexMappingDemo\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "AutoMapperComplexMappingDemo\\Controllers\\OrderController.cs",
+              "ToolTip": "E:\\MyFirstWebAPIProject\\AutoMapperComplexMappingDemo\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "AutoMapperComplexMappingDemo\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAH8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:23:20.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderMappingProfile.cs",
+              "DocumentMoniker": "E:\\MyFirstWebAPIProject\\AutoMapperComplexMappingDemo\\MappingProfiles\\OrderMappingProfile.cs",
+              "RelativeDocumentMoniker": "AutoMapperComplexMappingDemo\\MappingProfiles\\OrderMappingProfile.cs",
+              "ToolTip": "E:\\MyFirstWebAPIProject\\AutoMapperComplexMappingDemo\\MappingProfiles\\OrderMappingProfile.cs",
+              "RelativeToolTip": "AutoMapperComplexMappingDemo\\MappingProfiles\\OrderMappingProfile.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:12:57.007Z",
+              "EditorCaption": ""
             }
           ]
         }

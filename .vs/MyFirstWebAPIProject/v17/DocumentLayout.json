@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\MyFirstWebAPIProject\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{55E25F27-B638-4F47-83D3-F0110C5C2816}|AutomapperDemo\\AutomapperDemo.csproj|e:\\myfirstwebapiproject\\automapperdemo\\data\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55E25F27-B638-4F47-83D3-F0110C5C2816}|AutomapperDemo\\AutomapperDemo.csproj|solutionrelative:automapperdemo\\data\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55E25F27-B638-4F47-83D3-F0110C5C2816}|AutomapperDemo\\AutomapperDemo.csproj|e:\\myfirstwebapiproject\\automapperdemo\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55E25F27-B638-4F47-83D3-F0110C5C2816}|AutomapperDemo\\AutomapperDemo.csproj|solutionrelative:automapperdemo\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55E25F27-B638-4F47-83D3-F0110C5C2816}|AutomapperDemo\\AutomapperDemo.csproj|e:\\myfirstwebapiproject\\automapperdemo\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55E25F27-B638-4F47-83D3-F0110C5C2816}|AutomapperDemo\\AutomapperDemo.csproj|solutionrelative:automapperdemo\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55E25F27-B638-4F47-83D3-F0110C5C2816}|AutomapperDemo\\AutomapperDemo.csproj|e:\\myfirstwebapiproject\\automapperdemo\\dtos\\productdto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55E25F27-B638-4F47-83D3-F0110C5C2816}|AutomapperDemo\\AutomapperDemo.csproj|solutionrelative:automapperdemo\\dtos\\productdto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,60 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductDbContext.cs",
-              "DocumentMoniker": "E:\\MyFirstWebAPIProject\\AutomapperDemo\\Data\\ProductDbContext.cs",
-              "RelativeDocumentMoniker": "AutomapperDemo\\Data\\ProductDbContext.cs",
-              "ToolTip": "E:\\MyFirstWebAPIProject\\AutomapperDemo\\Data\\ProductDbContext.cs",
-              "RelativeToolTip": "AutomapperDemo\\Data\\ProductDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowA8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T13:29:12.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductDTO .cs",
-              "DocumentMoniker": "E:\\MyFirstWebAPIProject\\AutomapperDemo\\DTOs\\ProductDTO .cs",
-              "RelativeDocumentMoniker": "AutomapperDemo\\DTOs\\ProductDTO .cs",
-              "ToolTip": "E:\\MyFirstWebAPIProject\\AutomapperDemo\\DTOs\\ProductDTO .cs",
-              "RelativeToolTip": "AutomapperDemo\\DTOs\\ProductDTO .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T13:28:19.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductCreateDTO.cs",
-              "DocumentMoniker": "E:\\MyFirstWebAPIProject\\AutomapperDemo\\DTOs\\ProductCreateDTO.cs",
-              "RelativeDocumentMoniker": "AutomapperDemo\\DTOs\\ProductCreateDTO.cs",
-              "ToolTip": "E:\\MyFirstWebAPIProject\\AutomapperDemo\\DTOs\\ProductCreateDTO.cs",
-              "RelativeToolTip": "AutomapperDemo\\DTOs\\ProductCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T13:28:09.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "E:\\MyFirstWebAPIProject\\AutomapperDemo\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "AutomapperDemo\\Controllers\\ProductsController.cs",
-              "ToolTip": "E:\\MyFirstWebAPIProject\\AutomapperDemo\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "AutomapperDemo\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T11:15:33.498Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
