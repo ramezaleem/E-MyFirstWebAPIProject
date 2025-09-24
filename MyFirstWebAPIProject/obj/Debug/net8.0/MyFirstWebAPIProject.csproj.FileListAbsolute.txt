@@ -18,6 +18,7 @@ E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\MyFirstWebAPIProje
 E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\MyFirstWebAPIProject.csproj.CoreCompileInputs.cache
 E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\MyFirstWebAPIProject.MvcApplicationPartsAssemblyInfo.cs
 E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\MyFirstWebAPIProject.MvcApplicationPartsAssemblyInfo.cache
+E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\MyFirstWebAPIProject.sourcelink.json
 E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\rjimswa.dswa.cache.json
 E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -33,4 +34,3 @@ E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\refint\MyFirstWebA
 E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\MyFirstWebAPIProject.pdb
 E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\MyFirstWebAPIProject.genruntimeconfig.cache
 E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\ref\MyFirstWebAPIProject.dll
-E:\MyFirstWebAPIProject\MyFirstWebAPIProject\obj\Debug\net8.0\MyFirstWebAPIProject.sourcelink.json

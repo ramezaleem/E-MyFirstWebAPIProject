@@ -6,6 +6,8 @@ E:\MyFirstWebAPIProject\AutomapperDemo\bin\Debug\net8.0\AutomapperDemo.deps.json
 E:\MyFirstWebAPIProject\AutomapperDemo\bin\Debug\net8.0\AutomapperDemo.runtimeconfig.json
 E:\MyFirstWebAPIProject\AutomapperDemo\bin\Debug\net8.0\AutomapperDemo.dll
 E:\MyFirstWebAPIProject\AutomapperDemo\bin\Debug\net8.0\AutomapperDemo.pdb
+E:\MyFirstWebAPIProject\AutomapperDemo\bin\Debug\net8.0\AutoMapper.dll
+E:\MyFirstWebAPIProject\AutomapperDemo\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 E:\MyFirstWebAPIProject\AutomapperDemo\bin\Debug\net8.0\Azure.Core.dll
 E:\MyFirstWebAPIProject\AutomapperDemo\bin\Debug\net8.0\Azure.Identity.dll
 E:\MyFirstWebAPIProject\AutomapperDemo\bin\Debug\net8.0\Humanizer.dll
@@ -170,5 +172,3 @@ E:\MyFirstWebAPIProject\AutomapperDemo\obj\Debug\net8.0\refint\AutomapperDemo.dl
 E:\MyFirstWebAPIProject\AutomapperDemo\obj\Debug\net8.0\AutomapperDemo.pdb
 E:\MyFirstWebAPIProject\AutomapperDemo\obj\Debug\net8.0\AutomapperDemo.genruntimeconfig.cache
 E:\MyFirstWebAPIProject\AutomapperDemo\obj\Debug\net8.0\ref\AutomapperDemo.dll
-E:\MyFirstWebAPIProject\AutomapperDemo\bin\Debug\net8.0\AutoMapper.dll
-E:\MyFirstWebAPIProject\AutomapperDemo\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

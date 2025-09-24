@@ -1,3 +1,7 @@
+E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\bin\Debug\net8.0\ValidationDemo.deps.json
+E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\bin\Debug\net8.0\ValidationDemo.runtimeconfig.json
+E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\bin\Debug\net8.0\ValidationDemo.staticwebassets.endpoints.json
+E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\bin\Debug\net8.0\ValidationDemo.exe
 E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\bin\Debug\net8.0\appsettings.Development.json
 E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\bin\Debug\net8.0\appsettings.json
 E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\bin\Debug\net8.0\AutoMapperComplexMappingDemo.staticwebassets.endpoints.json
@@ -148,6 +152,8 @@ E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\bin\Debug\net8.0\runtimes\w
 E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\bin\Debug\net8.0\ValidationDemo.dll
+E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\bin\Debug\net8.0\ValidationDemo.pdb
 E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\obj\Debug\net8.0\AutoMapperComplexMappingDemo.csproj.AssemblyReference.cache
 E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\obj\Debug\net8.0\rpswa.dswa.cache.json
 E:\MyFirstWebAPIProject\AutoMapperComplexMappingDemo\obj\Debug\net8.0\AutoMapperComplexMappingDemo.GeneratedMSBuildEditorConfig.editorconfig

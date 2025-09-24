@@ -22,6 +22,14 @@ public class Program
         builder.Services.AddDbContext<ProductDbContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("ECommerceDBConnection")));
 
+
+        builder.Services.AddDbContext<UserDbContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("UsersDBConnection")));
+
+
+        builder.Services.AddDbContext<EmployeeDBContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("EmployeeDBConnection")));
+
         builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
